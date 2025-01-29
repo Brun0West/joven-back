@@ -1,0 +1,47 @@
+# Archivos de Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.sqlite3
+
+# Entorno virtual
+venv/
+env/
+*.egg-info/
+*.egg
+
+# Configuración de entorno
+.env
+*.ini
+*.cfg
+.settings
+
+# Archivos de logs y caché
+logs/
+*.log
+debug.log
+*.out
+*.pid
+*.swp
+
+# Archivos de Django específicos
+db.sqlite3
+/media/
+staticfiles/
+*.bak
+.DS_Store
+
+# Archivos de dependencias y compilados
+node_modules/
+*.lock
+package-lock.json
+yarn.lock
+
+# Archivos de IDEs y editores
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Docker
+docker-compose.override.yml
